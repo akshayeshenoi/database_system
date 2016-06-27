@@ -1,0 +1,2 @@
+[27-Dec-2015 11:33:01 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'user'@'localhost' (using password: YES) in /home/iaeste/public_html/database/conn.php on line 6
+[27-Dec-2015 11:33:09 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'user'@'localhost' (using password: YES) in /home/iaeste/public_html/database/conn.php on line 6

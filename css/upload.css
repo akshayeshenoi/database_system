@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+.header {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3);
+    height: 115px;
+    margin-bottom: 10px;
+}
+#logo {
+    height: auto;
+    left: 0;
+    padding: 20px 0 5px 10px;
+    width: 135px;
+}
+#dsm_logo {
+    float: right;
+    height: auto;
+    padding: 20px 10px 10px 0;
+    width: 200px;
+}
+.title {
+    color: #2c3e50;
+    font-family: "Quattrocento Sans",sans-serif;
+    font-size: 3em;
+    margin-bottom: 28px;
+    margin-top: 27px;
+    text-align: center;
+}
+.main {
+    margin: 0 auto;
+    width: 1237px;
+}
+.container {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    font-family: "Quattrocento Sans",sans-serif;
+    height: 310px;
+    padding: 40px;
+    vertical-align: bottom;
+    width: 522px;
+}
+.space {
+    display: inline-block;
+    width: 2%;
+}
+body {
+    background: #fafafa none repeat scroll 0 0;
+}
+#subtitle {
+    color: #2c3e50;
+    font-family: "Quattrocento Sans",sans-serif;
+    font-size: 2em;
+    margin-bottom: 21px;
+}
+.point {
+    font-family: "Quattrocento Sans",sans-serif;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+.instr {
+    color: #2c3e50;
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+#uploadBtn {
+    background-color: #3498db;
+    border: 0 none;
+    border-radius: 1px;
+    color: white;
+    font-family: "Verdana";
+    height: 25px;
+    margin-top: 12px;
+    width: 100px;
+}
+.TableList {
+    margin: 15px auto;
+}
+.pane {
+    display: inline-block;
+    width: 39%;
+    border: 0px solid #e67e22;
+    border-radius: 3px;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.1);
+}
+.viewList, .editList {
+    height: 100px;
+    overflow-y: scroll;
+    margin-left: 2px;
+}
+.space1 {
+    display: inline-block;
+    width: 17%;
+}
+.paneTitle {
+    color: white;
+    font-size: 1em;
+    margin: 0 auto 10px;
+    background-color: #e67e22;
+    text-align: center;
+    height: 21px;
+    border-radius: 2px;
+    padding: 4px 0 0 0 ;
+}
+.viewList input {
+    line-height: 1.4em;
+}
+.editList input {
+    line-height: 1.4em;
+}
+.footer{
+	position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+.footer img {
+    width: auto;
+    height: 32px;
+}
+.button {
+    background-color: #3498db;
+    border: 0 none;
+    color: white;
+    margin-right: 3px;
+    padding: 3px 9px;
+}
+.button:hover {
+    background-color: #2e8ece;
+}
+.button-pane {
+    float: right;
+    margin-right: 4px;
+}
+.space2 {
+    height: 1px;
+}

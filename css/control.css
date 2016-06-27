@@ -1,0 +1,199 @@
+* { 
+    margin: 0;
+}
+body {
+    background: #fafafa none repeat scroll 0 0;
+    font-family: "Quattrocento Sans",sans-serif;
+}
+.header {
+    height: 115px;
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 3;
+}
+#logo {
+    left: 0;
+    padding: 20px 0 5px 10px;
+    width: 135px;
+    height: auto;
+}
+#dsm_logo {
+    float: right;
+    padding: 20px 10px 10px 0;
+    height: auto;
+    width: 200px;
+}
+.nav{
+    background-color: white;
+    width: 10%;
+    height: 980px;
+    position: absolute;
+    padding: 20px 0 0 0;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    text-align: center;
+}
+
+.nav li{
+    border-bottom: 1px dotted gray;
+    padding: 3px 0 0 3px;
+    list-style-type: none;
+}
+
+.nav button {
+    background-color: rgba(0, 0, 0, 0.00);
+    border: none;
+    padding: 5px;
+    font-size:16px;
+    width: 100%;
+}
+
+.nav button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#modifyPane{
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3);
+    width: 40%;
+    background-color: #ffffff;
+    margin-left: 14%;
+    margin-top: 3%;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+    min-width: 50%;
+}
+#addPane {
+    background-color: #ffffff;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 14%;
+    margin-top: 3%;
+    padding: 20px 0 0 0px;
+    width: 44%;
+    text-align: center;
+}
+#dbPane {
+    background-color: #ffffff;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3);
+    margin-left: 14%;
+    margin-top: 3%;
+    padding: 20px 0 15px 0px;
+    width: 44%;
+    text-align: center;
+}
+.dbTable{
+    max-height: 400px;
+    overflow-y: auto;
+}
+.dbTable table{
+    margin: 0 auto;
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+
+.dbTable thead td{
+    font-size: 22px;
+    height: 30px;
+    width: 120px;
+}
+
+.dbTable td{
+    padding: 1px;
+}
+.dbTable tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.subtitle {
+    color: #2c3e50;
+    font-family: "Quattrocento Sans",sans-serif;
+    font-size: 2.7em;
+    margin-bottom: 10px;
+}
+
+.instr {
+    display: inline-block;
+    line-height: 2em;
+    text-align: right;
+    vertical-align: top;
+}
+.inputs {
+    display: inline-block;
+    line-height: 2em;
+    margin-left: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+.TableList {
+    margin: 15px auto;
+}
+.mTableList{
+    margin: 15px auto;   
+}
+.pane {
+    border: 0 solid #e67e22;
+    border-radius: 3px;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 39%;
+    text-align: left;
+}
+.viewList, .editList {
+    height: 100px;
+    margin-left: 2px;
+    overflow-y: scroll;
+}
+.space1 {
+    display: inline-block;
+    width: 17%;
+}
+.paneTitle {
+    background-color: #e67e22;
+    border-radius: 2px;
+    color: white;
+    font-size: 1em;
+    height: 21px;
+    margin: 0 auto 10px;
+    padding: 4px 0 0;
+    text-align: center;
+}
+.viewList input {
+    line-height: 1.4em;
+}
+.editList input {
+    line-height: 1.4em;
+}
+#submit{
+    background-color: #3498db;
+    border: 0 none;
+    border-radius: 1px;
+    color: white;
+    height: 25px;
+    margin-top: 12px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: #2e8ece;  
+}
+
+#edit, #refresh, #change{
+    background-color: #3498db;
+    border: 0 none;
+    border-radius: 1px;
+    color: white;
+    height: 25px;
+    margin-top: 12px;
+    width: 60px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+#refresh{
+    width: 70px;
+}
+
+#edit:hover, #refresh:hover, #change:hover{
+    background-color: #2e8ece;
+}

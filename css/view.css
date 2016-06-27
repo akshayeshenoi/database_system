@@ -1,0 +1,82 @@
+* { 
+    margin: 0;
+}
+
+.header {
+    height: 115px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.3)
+}
+#logo {
+    left: 0;
+    padding: 20px 0 5px 10px;
+    width: 135px;
+    height: auto;
+}
+#dsm_logo {
+    float: right;
+    padding: 20px 10px 10px 0;
+    height: auto;
+    width: 200px;
+}
+.button{
+    background-color: #3498db;
+    border: 0 none;
+    color: white;
+    font-family: "Verdana";
+    height: 25px;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+    padding: 0 10px 0 10px;
+    float: left;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.button:hover{
+    background-color: #2e8ece;
+}
+.left{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+}
+.right{
+    display: inline-block;
+    float: right;
+    vertical-align: bottom;
+}
+.button-pane{
+    display: inline-block;
+}
+.user{
+    float: left;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+#greeting{
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: "Verdana";
+    padding-right: 10px;
+}
+.options{
+    margin-bottom: 15px;
+}
+.editpane {
+    margin-bottom: 70px;
+    text-align: center;
+}
+#result{
+    margin-bottom: 10px;
+    padding: 6px;
+}
+.editpane input{
+    padding: 5px;
+    margin: 1px;
+}
+.fields{
+    display: inline-block;
+}

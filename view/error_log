@@ -1,0 +1,3 @@
+[27-Dec-2015 11:36:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/iaeste/public_html/database/view/getDB.php on line 11
+[27-Dec-2015 12:15:43 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/iaeste/public_html/database/view/getData.php on line 24
+[04-Jan-2016 06:40:31 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/iaeste/public_html/database/view/getData.php on line 24

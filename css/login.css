@@ -1,0 +1,63 @@
+
+.form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-top: 7px solid #3498db;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    font-family: "Verdana";
+    font-size: 15px;
+    line-height: 2.5;
+    margin: 75px auto auto;
+    padding: 25px 25px 40px;
+    text-align: center;
+    width: 287px;
+}
+#submit {
+    background-color: #3498db;
+    border: 0 none;
+    color: white;
+    font-family: "Verdana";
+    height: 25px;
+    margin-top: 30px;
+}
+
+#submit:hover{
+    background-color: #2e8ece;  
+}
+
+input {
+    border: 1px solid #dddddd;
+    font-family: "Verdana";
+    height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    width: 181px;
+}
+.logo img {
+    height: auto;
+    width: 55%;
+}
+.logo {
+    position: relative;
+    right: 25px;
+}
+body {
+    background-color: #ecf0f1;
+}
+.footer img {
+    height: 40px;
+    width: auto;
+}
+.footer {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+.dsm_logo {
+    position: relative;
+    margin: 20px;
+}
+.dsm_logo img {
+    height: auto;
+    width: 176px;
+}
