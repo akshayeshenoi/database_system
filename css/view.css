@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body{
+    font-family: "Open Sans", Verdana;
+}
 .header {
     height: 115px;
     margin-bottom: 15px;
