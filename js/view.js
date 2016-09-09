@@ -93,8 +93,11 @@ function enhance() {
     for (var i = 0; i < tables.edit.length; i++) { //done for disabling edit if no rights
         tedit.push(tables.edit[i].name);
     }
-    if (tedit.indexOf($("#selectOption").val()) == -1)
+    if (tedit.indexOf($("#selectOption").val()) == -1){
         $("#edit").prop('disabled', true);
+        $("#delete").prop('disabled', true);
+        $("#add").prop('disabled', true);
+    }
 
     table.on('select', function(e, dt, type, indexes) {
         rowData = table.row(indexes).data();
